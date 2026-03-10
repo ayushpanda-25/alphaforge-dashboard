@@ -1,0 +1,198 @@
+{
+  "scan_date": "2026-03-10",
+  "expiration": "2026-04-17",
+  "source": "LSEG MCP via desktop.workspace session",
+  "tickers": {
+    "CVX": {
+      "total_call_volume": 4421,
+      "total_put_volume": 718,
+      "put_call_volume_ratio": 0.162,
+      "flagged_contracts": [
+        {"type": "call", "strike": 200, "volume": 3158, "oi": 0, "volume_oi_ratio": 999, "delta": 0.3058},
+        {"type": "call", "strike": 190, "volume": 664, "oi": 0, "volume_oi_ratio": 999, "delta": 0.5191}
+      ]
+    },
+    "NFLX": {
+      "total_call_volume": 6103,
+      "total_put_volume": 342,
+      "put_call_volume_ratio": 0.056,
+      "flagged_contracts": [
+        {"type": "call", "strike": 105, "volume": 3144, "oi": 0, "volume_oi_ratio": 999, "delta": 0.3295},
+        {"type": "call", "strike": 100, "volume": 2119, "oi": 0, "volume_oi_ratio": 999, "delta": 0.4868}
+      ]
+    },
+    "COIN": {
+      "total_call_volume": 1104,
+      "total_put_volume": 1600,
+      "put_call_volume_ratio": 1.449,
+      "flagged_contracts": [
+        {"type": "put", "strike": 195, "volume": 642, "oi": 0, "volume_oi_ratio": 999, "delta": -0.4083},
+        {"type": "call", "strike": 200, "volume": 559, "oi": 0, "volume_oi_ratio": 999, "delta": 0.5508}
+      ]
+    },
+    "BAC": {
+      "total_call_volume": 0,
+      "total_put_volume": 0,
+      "put_call_volume_ratio": 1.0,
+      "flagged_contracts": []
+    },
+    "COP": {
+      "total_call_volume": 567,
+      "total_put_volume": 26,
+      "put_call_volume_ratio": 0.046,
+      "flagged_contracts": []
+    },
+    "JNJ": {
+      "total_call_volume": 377,
+      "total_put_volume": 10,
+      "put_call_volume_ratio": 0.027,
+      "flagged_contracts": []
+    },
+    "COST": {
+      "total_call_volume": 177,
+      "total_put_volume": 183,
+      "put_call_volume_ratio": 1.034,
+      "flagged_contracts": []
+    },
+    "AVGO": {
+      "total_call_volume": 3038,
+      "total_put_volume": 1145,
+      "put_call_volume_ratio": 0.377,
+      "flagged_contracts": [
+        {"type": "call", "strike": 340, "volume": 1577, "oi": 0, "volume_oi_ratio": 999, "delta": 0.5743},
+        {"type": "call", "strike": 350, "volume": 1461, "oi": 0, "volume_oi_ratio": 999, "delta": 0.5028},
+        {"type": "put", "strike": 340, "volume": 714, "oi": 0, "volume_oi_ratio": 999, "delta": -0.4280}
+      ]
+    },
+    "ADBE": {
+      "total_call_volume": 247,
+      "total_put_volume": 254,
+      "put_call_volume_ratio": 1.028,
+      "flagged_contracts": []
+    },
+    "MRK": {
+      "total_call_volume": 1205,
+      "total_put_volume": 334,
+      "put_call_volume_ratio": 0.277,
+      "flagged_contracts": [
+        {"type": "call", "strike": 120, "volume": 890, "oi": 0, "volume_oi_ratio": 999, "delta": 0.4059}
+      ]
+    },
+    "AAPL": {
+      "total_call_volume": 15812,
+      "total_put_volume": 8897,
+      "put_call_volume_ratio": 0.563,
+      "flagged_contracts": [
+        {"type": "call", "strike": 270, "volume": 9531, "oi": 0, "volume_oi_ratio": 999, "delta": 0.3552},
+        {"type": "put", "strike": 250, "volume": 6750, "oi": 0, "volume_oi_ratio": 999, "delta": -0.3149},
+        {"type": "call", "strike": 265, "volume": 3779, "oi": 0, "volume_oi_ratio": 999, "delta": 0.4467},
+        {"type": "call", "strike": 260, "volume": 1780, "oi": 0, "volume_oi_ratio": 999, "delta": 0.5349},
+        {"type": "put", "strike": 255, "volume": 993, "oi": 0, "volume_oi_ratio": 999, "delta": -0.3870},
+        {"type": "put", "strike": 260, "volume": 749, "oi": 0, "volume_oi_ratio": 999, "delta": -0.4705},
+        {"type": "call", "strike": 255, "volume": 565, "oi": 0, "volume_oi_ratio": 999, "delta": 0.6161}
+      ]
+    },
+    "MSFT": {
+      "total_call_volume": 3690,
+      "total_put_volume": 5154,
+      "put_call_volume_ratio": 1.397,
+      "flagged_contracts": [
+        {"type": "put", "strike": 395, "volume": 1741, "oi": 0, "volume_oi_ratio": 999, "delta": -0.3254},
+        {"type": "call", "strike": 410, "volume": 1236, "oi": 0, "volume_oi_ratio": 999, "delta": 0.5350},
+        {"type": "put", "strike": 410, "volume": 1127, "oi": 0, "volume_oi_ratio": 999, "delta": -0.4702},
+        {"type": "call", "strike": 400, "volume": 1095, "oi": 0, "volume_oi_ratio": 999, "delta": 0.6322},
+        {"type": "call", "strike": 405, "volume": 1035, "oi": 0, "volume_oi_ratio": 999, "delta": 0.5849},
+        {"type": "put", "strike": 405, "volume": 888, "oi": 0, "volume_oi_ratio": 999, "delta": -0.4184},
+        {"type": "put", "strike": 400, "volume": 778, "oi": 0, "volume_oi_ratio": 999, "delta": -0.3702},
+        {"type": "put", "strike": 390, "volume": 620, "oi": 0, "volume_oi_ratio": 999, "delta": -0.2842}
+      ]
+    },
+    "NVDA": {
+      "total_call_volume": 132,
+      "total_put_volume": 5975,
+      "put_call_volume_ratio": 45.265,
+      "flagged_contracts": [
+        {"type": "put", "strike": 115, "volume": 3800, "oi": 0, "volume_oi_ratio": 999, "delta": -0.0181},
+        {"type": "put", "strike": 120, "volume": 1330, "oi": 0, "volume_oi_ratio": 999, "delta": -0.0237},
+        {"type": "put", "strike": 125, "volume": 515, "oi": 0, "volume_oi_ratio": 999, "delta": -0.0306}
+      ]
+    },
+    "GOOGL": {
+      "total_call_volume": 2,
+      "total_put_volume": 100,
+      "put_call_volume_ratio": 50.0,
+      "flagged_contracts": []
+    },
+    "AMZN": {
+      "total_call_volume": 4228,
+      "total_put_volume": 9355,
+      "put_call_volume_ratio": 2.213,
+      "flagged_contracts": [
+        {"type": "put", "strike": 200, "volume": 2986, "oi": 0, "volume_oi_ratio": 999, "delta": -0.2678},
+        {"type": "call", "strike": 210, "volume": 2893, "oi": 0, "volume_oi_ratio": 999, "delta": 0.5934},
+        {"type": "put", "strike": 190, "volume": 2376, "oi": 0, "volume_oi_ratio": 999, "delta": -0.1663},
+        {"type": "put", "strike": 195, "volume": 2060, "oi": 0, "volume_oi_ratio": 999, "delta": -0.2121},
+        {"type": "put", "strike": 210, "volume": 1288, "oi": 0, "volume_oi_ratio": 999, "delta": -0.4096},
+        {"type": "call", "strike": 200, "volume": 829, "oi": 0, "volume_oi_ratio": 999, "delta": 0.7349},
+        {"type": "put", "strike": 205, "volume": 645, "oi": 0, "volume_oi_ratio": 999, "delta": -0.3340}
+      ]
+    },
+    "META": {
+      "total_call_volume": 223,
+      "total_put_volume": 925,
+      "put_call_volume_ratio": 4.148,
+      "flagged_contracts": []
+    },
+    "TSLA": {
+      "total_call_volume": 48,
+      "total_put_volume": 790,
+      "put_call_volume_ratio": 16.458,
+      "flagged_contracts": []
+    },
+    "JPM": {
+      "total_call_volume": 8,
+      "total_put_volume": 420,
+      "put_call_volume_ratio": 52.5,
+      "flagged_contracts": []
+    },
+    "XOM": {
+      "total_call_volume": 6,
+      "total_put_volume": 118,
+      "put_call_volume_ratio": 19.667,
+      "flagged_contracts": []
+    },
+    "GS": {
+      "total_call_volume": 0,
+      "total_put_volume": 20,
+      "put_call_volume_ratio": 1.0,
+      "flagged_contracts": []
+    },
+    "CRM": {
+      "total_call_volume": 15,
+      "total_put_volume": 1,
+      "put_call_volume_ratio": 0.067,
+      "flagged_contracts": []
+    },
+    "AMD": {
+      "total_call_volume": 0,
+      "total_put_volume": 4079,
+      "put_call_volume_ratio": 999.0,
+      "flagged_contracts": [
+        {"type": "put", "strike": 105, "volume": 3565, "oi": 0, "volume_oi_ratio": 999, "delta": -0.0092},
+        {"type": "put", "strike": 110, "volume": 514, "oi": 0, "volume_oi_ratio": 999, "delta": -0.0115}
+      ]
+    },
+    "PLTR": {
+      "total_call_volume": 0,
+      "total_put_volume": 0,
+      "put_call_volume_ratio": 1.0,
+      "flagged_contracts": []
+    },
+    "NOW": {
+      "total_call_volume": 0,
+      "total_put_volume": 0,
+      "put_call_volume_ratio": 1.0,
+      "flagged_contracts": []
+    }
+  }
+}

@@ -1,0 +1,789 @@
+{
+  "generated_at": "2026-03-09T22:54:10.473609",
+  "engine_version": "2.0",
+  "model": "7-Factor",
+  "vlm_basis": "v8.2",
+  "market_regime": "HIGH_VOL",
+  "vix": 25.5,
+  "regime_tilt": "quality/defensive",
+  "macro": {
+    "yield_10y": 4.136000156402588,
+    "yield_10y_change_5d": 0.08800029754638672,
+    "credit_spread_trend": "stable",
+    "risk_appetite": "neutral",
+    "leading_sectors": [
+      "Technology"
+    ],
+    "lagging_sectors": [
+      "Semiconductors",
+      "Consumer Staples",
+      "Industrials"
+    ],
+    "dollar_trend": "stable",
+    "sector_momentum": {
+      "Technology": 0.16,
+      "Financials": -1.89,
+      "Healthcare": -2.69,
+      "Energy": -1.26,
+      "Industrials": -4.45,
+      "Consumer Staples": -3.09,
+      "Consumer Discretionary": -0.72,
+      "Communication": -0.26,
+      "Semiconductors": -2.96
+    }
+  },
+  "universe_size": 43,
+  "candidates_scored": 43,
+  "total_holdings": 14,
+  "equity_holdings": 12,
+  "defensive_anchors": [
+    "SHV",
+    "GLD"
+  ],
+  "scoring_model": {
+    "technical": "20 pts",
+    "flow": "20 pts",
+    "volume_profile": "15 pts",
+    "news_sentiment": "10 pts",
+    "regime_macro": "15 pts",
+    "adx": "10 pts",
+    "momentum": "10 pts"
+  },
+  "portfolio": [
+    {
+      "rank": 1,
+      "ticker": "NFLX",
+      "quality_score": 69.2,
+      "weight_pct": 9,
+      "weight": 0.09,
+      "type": "equity",
+      "technical_score": 9.3,
+      "flow_score": 17.3,
+      "volume_score": 13.0,
+      "news_score": 5.0,
+      "adx_score": 10.0,
+      "regime_score": 7.0,
+      "momentum_score": 7.5,
+      "rationale": "Uptrend (ADX 55); very_bullish_pc_0.06, call_accumulation_2_contracts; obv_confirms_bullish",
+      "signals": [
+        "uptrend",
+        "high_adx_55",
+        "positive_delta",
+        "near_20d_high",
+        "very_bullish_pc_0.06",
+        "call_accumulation_2_contracts",
+        "extreme_vol_oi_999.0x",
+        "obv_confirms_bullish",
+        "mfi_strong_buying_82",
+        "strong_accumulation",
+        "up_volume_dominates",
+        "no_recent_news"
+      ],
+      "warnings": [],
+      "close": 98.31999969482422,
+      "sector": "Communication"
+    },
+    {
+      "rank": 2,
+      "ticker": "CVX",
+      "quality_score": 65.7,
+      "weight_pct": 9,
+      "weight": 0.09,
+      "type": "equity",
+      "technical_score": 11.3,
+      "flow_score": 17.3,
+      "volume_score": 10.0,
+      "news_score": 5.0,
+      "adx_score": 10.0,
+      "regime_score": 7.0,
+      "momentum_score": 5.0,
+      "rationale": "Uptrend (ADX 36); very_bullish_pc_0.16, call_accumulation_2_contracts; obv_accumulation; Volume 1.5x avg",
+      "signals": [
+        "uptrend",
+        "volume_anomaly_1.5x",
+        "high_adx_36",
+        "very_bullish_pc_0.16",
+        "call_accumulation_2_contracts",
+        "extreme_vol_oi_999.0x",
+        "obv_accumulation",
+        "strong_accumulation",
+        "volume_elevated_1.3x",
+        "no_recent_news"
+      ],
+      "warnings": [],
+      "close": 189.44000244140625,
+      "sector": "Energy"
+    },
+    {
+      "rank": 3,
+      "ticker": "MRK",
+      "quality_score": 59.0,
+      "weight_pct": 8,
+      "weight": 0.08,
+      "type": "equity",
+      "technical_score": 0.7,
+      "flow_score": 17.3,
+      "volume_score": 10.0,
+      "news_score": 5.0,
+      "adx_score": 10.0,
+      "regime_score": 12.0,
+      "momentum_score": 4.0,
+      "rationale": "very_bullish_pc_0.28, call_accumulation_1_contracts; obv_confirms_bullish; Regime-aligned (quality/defensive)",
+      "signals": [
+        "high_adx_34",
+        "positive_delta",
+        "very_bullish_pc_0.28",
+        "call_accumulation_1_contracts",
+        "extreme_vol_oi_999.0x",
+        "obv_confirms_bullish",
+        "strong_accumulation",
+        "no_recent_news"
+      ],
+      "warnings": [],
+      "close": 117.11000061035156,
+      "sector": "Healthcare"
+    },
+    {
+      "rank": 4,
+      "ticker": "AVGO",
+      "quality_score": 57.0,
+      "weight_pct": 8,
+      "weight": 0.08,
+      "type": "equity",
+      "technical_score": 10.7,
+      "flow_score": 17.3,
+      "volume_score": 8.0,
+      "news_score": 5.0,
+      "adx_score": 8.0,
+      "regime_score": 3.0,
+      "momentum_score": 5.0,
+      "rationale": "very_bullish_pc_0.38, call_accumulation_2_contracts; Volume 1.6x avg",
+      "signals": [
+        "volume_anomaly_1.6x",
+        "high_adx_29",
+        "positive_delta",
+        "very_bullish_pc_0.38",
+        "call_accumulation_2_contracts",
+        "extreme_vol_oi_999.0x",
+        "mfi_buying_63",
+        "ad_accumulation",
+        "volume_elevated_1.5x",
+        "no_recent_news"
+      ],
+      "warnings": [],
+      "close": 345.75,
+      "sector": "Semiconductors"
+    },
+    {
+      "rank": 5,
+      "ticker": "COIN",
+      "quality_score": 56.7,
+      "weight_pct": 8,
+      "weight": 0.08,
+      "type": "equity",
+      "technical_score": 5.3,
+      "flow_score": 7.3,
+      "volume_score": 11.0,
+      "news_score": 5.0,
+      "adx_score": 10.0,
+      "regime_score": 12.0,
+      "momentum_score": 6.0,
+      "rationale": "slightly_bearish_pc_1.45, mixed_flow_2_contracts; obv_confirms_bullish; Regime-aligned (quality/defensive)",
+      "signals": [
+        "high_adx_34",
+        "positive_delta",
+        "slightly_bearish_pc_1.45",
+        "mixed_flow_2_contracts",
+        "extreme_vol_oi_999.0x",
+        "obv_confirms_bullish",
+        "mfi_buying_68",
+        "strong_accumulation",
+        "no_recent_news"
+      ],
+      "warnings": [],
+      "close": 199.7899932861328,
+      "sector": "Financials"
+    },
+    {
+      "rank": 6,
+      "ticker": "COP",
+      "quality_score": 55.3,
+      "weight_pct": 7,
+      "weight": 0.07,
+      "type": "equity",
+      "technical_score": 8.7,
+      "flow_score": 6.7,
+      "volume_score": 13.0,
+      "news_score": 5.0,
+      "adx_score": 10.0,
+      "regime_score": 7.0,
+      "momentum_score": 5.0,
+      "rationale": "Uptrend (ADX 37); very_bullish_pc_0.05; obv_confirms_bullish; Volume 1.5x avg",
+      "signals": [
+        "uptrend",
+        "volume_anomaly_1.5x",
+        "high_adx_37",
+        "very_bullish_pc_0.05",
+        "obv_confirms_bullish",
+        "mfi_strong_buying_71",
+        "strong_accumulation",
+        "volume_elevated_1.3x",
+        "no_recent_news"
+      ],
+      "warnings": [],
+      "close": 117.02999877929688,
+      "sector": "Energy"
+    },
+    {
+      "rank": 7,
+      "ticker": "NOW",
+      "quality_score": 51.8,
+      "weight_pct": 7,
+      "weight": 0.07,
+      "type": "equity",
+      "technical_score": 6.7,
+      "flow_score": 6.7,
+      "volume_score": 12.0,
+      "news_score": 5.0,
+      "adx_score": 10.0,
+      "regime_score": 5.5,
+      "momentum_score": 6.0,
+      "rationale": "low_options_volume; obv_confirms_bullish; Sector momentum leader",
+      "signals": [
+        "high_adx_34",
+        "positive_delta",
+        "low_options_volume",
+        "obv_confirms_bullish",
+        "mfi_strong_buying_73",
+        "strong_accumulation",
+        "no_recent_news"
+      ],
+      "warnings": [],
+      "close": 121.93000030517578,
+      "sector": "Technology"
+    },
+    {
+      "rank": 8,
+      "ticker": "PLTR",
+      "quality_score": 50.5,
+      "weight_pct": 7,
+      "weight": 0.07,
+      "type": "equity",
+      "technical_score": 5.3,
+      "flow_score": 6.7,
+      "volume_score": 12.0,
+      "news_score": 5.0,
+      "adx_score": 10.0,
+      "regime_score": 5.5,
+      "momentum_score": 6.0,
+      "rationale": "low_options_volume; obv_confirms_bullish; Sector momentum leader",
+      "signals": [
+        "high_adx_34",
+        "positive_delta",
+        "low_options_volume",
+        "obv_confirms_bullish",
+        "mfi_strong_buying_77",
+        "strong_accumulation",
+        "no_recent_news"
+      ],
+      "warnings": [],
+      "close": 156.42999267578125,
+      "sector": "Technology"
+    },
+    {
+      "rank": 9,
+      "ticker": "JNJ",
+      "quality_score": 50.0,
+      "weight_pct": 7,
+      "weight": 0.07,
+      "type": "equity",
+      "technical_score": 5.3,
+      "flow_score": 6.7,
+      "volume_score": 8.0,
+      "news_score": 5.0,
+      "adx_score": 8.0,
+      "regime_score": 12.0,
+      "momentum_score": 5.0,
+      "rationale": "Uptrend (ADX 30); very_bullish_pc_0.03; Regime-aligned (quality/defensive)",
+      "signals": [
+        "uptrend",
+        "high_adx_30",
+        "positive_delta",
+        "very_bullish_pc_0.03",
+        "obv_accumulation",
+        "strong_accumulation",
+        "volume_declining_0.8x",
+        "no_recent_news"
+      ],
+      "warnings": [],
+      "close": 242.58999633789062,
+      "sector": "Healthcare"
+    },
+    {
+      "rank": 10,
+      "ticker": "RTX",
+      "quality_score": 49.5,
+      "weight_pct": 7,
+      "weight": 0.07,
+      "type": "equity",
+      "technical_score": 11.3,
+      "flow_score": 10.0,
+      "volume_score": 9.5,
+      "news_score": 5.0,
+      "adx_score": 2.7,
+      "regime_score": 6.0,
+      "momentum_score": 5.0,
+      "rationale": "Uptrend (ADX 19)",
+      "signals": [
+        "uptrend",
+        "volume_anomaly_1.2x",
+        "placeholder_flow",
+        "obv_accumulation",
+        "mfi_buying_61",
+        "strong_accumulation",
+        "no_recent_news"
+      ],
+      "warnings": [],
+      "close": 208.22999572753906,
+      "sector": "Industrials"
+    },
+    {
+      "rank": 11,
+      "ticker": "CRM",
+      "quality_score": 49.0,
+      "weight_pct": 7,
+      "weight": 0.07,
+      "type": "equity",
+      "technical_score": 5.3,
+      "flow_score": 6.7,
+      "volume_score": 11.5,
+      "news_score": 5.0,
+      "adx_score": 10.0,
+      "regime_score": 5.5,
+      "momentum_score": 5.0,
+      "rationale": "low_options_volume; obv_confirms_bullish; Sector momentum leader",
+      "signals": [
+        "high_adx_34",
+        "positive_delta",
+        "low_options_volume",
+        "obv_confirms_bullish",
+        "strong_accumulation",
+        "up_volume_dominates",
+        "no_recent_news"
+      ],
+      "warnings": [],
+      "close": 198.7899932861328,
+      "sector": "Technology"
+    },
+    {
+      "rank": 12,
+      "ticker": "UNH",
+      "quality_score": 48.2,
+      "weight_pct": 6,
+      "weight": 0.06,
+      "type": "equity",
+      "technical_score": 3.3,
+      "flow_score": 10.0,
+      "volume_score": 10.5,
+      "news_score": 5.0,
+      "adx_score": 5.3,
+      "regime_score": 12.0,
+      "momentum_score": 2.0,
+      "rationale": "obv_confirms_bullish; Regime-aligned (quality/defensive)",
+      "signals": [
+        "volume_anomaly_1.3x",
+        "positive_delta",
+        "placeholder_flow",
+        "obv_confirms_bullish",
+        "strong_accumulation",
+        "no_recent_news"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 285.1700134277344,
+      "sector": "Healthcare"
+    },
+    {
+      "rank": 13,
+      "ticker": "SHV",
+      "quality_score": 0,
+      "weight_pct": 5,
+      "weight": 0.05,
+      "type": "anchor",
+      "technical_score": 0,
+      "flow_score": 0,
+      "volume_score": 0,
+      "news_score": 0,
+      "adx_score": 0,
+      "regime_score": 0,
+      "momentum_score": 0,
+      "rationale": "Defensive anchor \u2014 cash buffer for rebalancing flexibility",
+      "signals": [
+        "defensive_cash"
+      ],
+      "warnings": [],
+      "close": 110.16999816894531,
+      "sector": "Cash"
+    },
+    {
+      "rank": 14,
+      "ticker": "GLD",
+      "quality_score": 0,
+      "weight_pct": 5,
+      "weight": 0.05,
+      "type": "anchor",
+      "technical_score": 0,
+      "flow_score": 0,
+      "volume_score": 0,
+      "news_score": 0,
+      "adx_score": 0,
+      "regime_score": 0,
+      "momentum_score": 0,
+      "rationale": "Defensive anchor \u2014 uncorrelated gold hedge for Sharpe optimization",
+      "signals": [
+        "defensive_commodities"
+      ],
+      "warnings": [],
+      "close": 472.5299987792969,
+      "sector": "Commodities"
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "MSFT",
+      "quality_score": 36.0,
+      "reason": "Below minimum quality threshold (42)"
+    },
+    {
+      "ticker": "GOOGL",
+      "quality_score": 28.0,
+      "reason": "Below minimum quality threshold (42)"
+    },
+    {
+      "ticker": "AMZN",
+      "quality_score": 36.5,
+      "reason": "Below minimum quality threshold (42)"
+    },
+    {
+      "ticker": "NVDA",
+      "quality_score": 28.8,
+      "reason": "Below minimum quality threshold (42)"
+    },
+    {
+      "ticker": "META",
+      "quality_score": 25.5,
+      "reason": "Below minimum quality threshold (42)"
+    },
+    {
+      "ticker": "TSLA",
+      "quality_score": 28.3,
+      "reason": "Below minimum quality threshold (42)"
+    },
+    {
+      "ticker": "AMD",
+      "quality_score": 30.5,
+      "reason": "Below minimum quality threshold (42)"
+    },
+    {
+      "ticker": "QCOM",
+      "quality_score": 39.3,
+      "reason": "Below minimum quality threshold (42)"
+    },
+    {
+      "ticker": "INTC",
+      "quality_score": 39.3,
+      "reason": "Below minimum quality threshold (42)"
+    },
+    {
+      "ticker": "MU",
+      "quality_score": 37.3,
+      "reason": "Below minimum quality threshold (42)"
+    },
+    {
+      "ticker": "JPM",
+      "quality_score": 36.5,
+      "reason": "Below minimum quality threshold (42)"
+    },
+    {
+      "ticker": "LLY",
+      "quality_score": 33.5,
+      "reason": "Below minimum quality threshold (42)"
+    },
+    {
+      "ticker": "ABBV",
+      "quality_score": 37.5,
+      "reason": "Below minimum quality threshold (42)"
+    },
+    {
+      "ticker": "XOM",
+      "quality_score": 39.7,
+      "reason": "Below minimum quality threshold (42)"
+    },
+    {
+      "ticker": "CAT",
+      "quality_score": 41.3,
+      "reason": "Below minimum quality threshold (42)"
+    }
+  ],
+  "all_scores": [
+    {
+      "ticker": "NFLX",
+      "quality_score": 69.2,
+      "sector": "Communication",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "CVX",
+      "quality_score": 65.7,
+      "sector": "Energy",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "MRK",
+      "quality_score": 59.0,
+      "sector": "Healthcare",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "AVGO",
+      "quality_score": 57.0,
+      "sector": "Semiconductors",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "COIN",
+      "quality_score": 56.7,
+      "sector": "Financials",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "COP",
+      "quality_score": 55.3,
+      "sector": "Energy",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "NOW",
+      "quality_score": 51.8,
+      "sector": "Technology",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "PLTR",
+      "quality_score": 50.5,
+      "sector": "Technology",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "JNJ",
+      "quality_score": 50.0,
+      "sector": "Healthcare",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "RTX",
+      "quality_score": 49.5,
+      "sector": "Industrials",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "CRM",
+      "quality_score": 49.0,
+      "sector": "Technology",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "UNH",
+      "quality_score": 48.2,
+      "sector": "Healthcare",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "BAC",
+      "quality_score": 46.3,
+      "sector": "Financials",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "MA",
+      "quality_score": 46.2,
+      "sector": "Financials",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "GS",
+      "quality_score": 45.7,
+      "sector": "Financials",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "V",
+      "quality_score": 45.2,
+      "sector": "Financials",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "ADBE",
+      "quality_score": 45.2,
+      "sector": "Technology",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "MS",
+      "quality_score": 45.0,
+      "sector": "Financials",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "COST",
+      "quality_score": 45.0,
+      "sector": "Consumer Staples",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "UBER",
+      "quality_score": 44.8,
+      "sector": "Technology",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "HON",
+      "quality_score": 43.5,
+      "sector": "Industrials",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "GE",
+      "quality_score": 43.3,
+      "sector": "Industrials",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "HD",
+      "quality_score": 43.2,
+      "sector": "Consumer Discretionary",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "AAPL",
+      "quality_score": 42.2,
+      "sector": "Technology",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "WMT",
+      "quality_score": 41.5,
+      "sector": "Consumer Staples",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "CAT",
+      "quality_score": 41.3,
+      "sector": "Industrials",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "DIS",
+      "quality_score": 41.0,
+      "sector": "Communication",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "XOM",
+      "quality_score": 39.7,
+      "sector": "Energy",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "QCOM",
+      "quality_score": 39.3,
+      "sector": "Semiconductors",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "INTC",
+      "quality_score": 39.3,
+      "sector": "Semiconductors",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "ABBV",
+      "quality_score": 37.5,
+      "sector": "Healthcare",
+      "is_dangerous": true
+    },
+    {
+      "ticker": "MU",
+      "quality_score": 37.3,
+      "sector": "Semiconductors",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "NKE",
+      "quality_score": 37.2,
+      "sector": "Consumer Discretionary",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "AMZN",
+      "quality_score": 36.5,
+      "sector": "Consumer Discretionary",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "JPM",
+      "quality_score": 36.5,
+      "sector": "Financials",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "ORCL",
+      "quality_score": 36.5,
+      "sector": "Technology",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "MSFT",
+      "quality_score": 36.0,
+      "sector": "Technology",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "LLY",
+      "quality_score": 33.5,
+      "sector": "Healthcare",
+      "is_dangerous": true
+    },
+    {
+      "ticker": "AMD",
+      "quality_score": 30.5,
+      "sector": "Semiconductors",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "NVDA",
+      "quality_score": 28.8,
+      "sector": "Technology",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "TSLA",
+      "quality_score": 28.3,
+      "sector": "Consumer Discretionary",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "GOOGL",
+      "quality_score": 28.0,
+      "sector": "Technology",
+      "is_dangerous": false
+    },
+    {
+      "ticker": "META",
+      "quality_score": 25.5,
+      "sector": "Technology",
+      "is_dangerous": false
+    }
+  ]
+}

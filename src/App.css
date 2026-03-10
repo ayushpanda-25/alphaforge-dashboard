@@ -1,0 +1,8 @@
+/* Responsive overrides */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 8px !important;
+  }
+}
