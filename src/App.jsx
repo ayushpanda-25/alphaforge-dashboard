@@ -62,6 +62,13 @@ const StatCard = ({ label, value, color, sub }) => (
   </div>
 );
 
+/* ── Submission order (matches competition form) ── */
+const SUBMISSION_ORDER = [
+  "NFLX", "CVX", "XOM", "MU", "COIN", "COP",
+  "WMT", "PLTR", "JNJ", "COST", "CRM", "MA",
+  "SHV", "GLD",
+];
+
 /* ── Deployment mode detection ── */
 const IS_LOCAL = window.location.hostname === "127.0.0.1" || window.location.hostname === "localhost";
 
@@ -300,7 +307,11 @@ export default function App() {
                 </tr>
               </thead>
               <tbody>
-                {portfolio.portfolio.map((h) => {
+                {[...portfolio.portfolio].sort((a, b) => {
+                  const ai = SUBMISSION_ORDER.indexOf(a.ticker);
+                  const bi = SUBMISSION_ORDER.indexOf(b.ticker);
+                  return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
+                }).map((h) => {
                   const isAnchor = h.type === "anchor";
                   const isExpanded = expandedRow === h.ticker;
                   return (
