@@ -124,7 +124,7 @@ export default function App() {
     return (
       <div style={{ background: T.bg, color: T.text, minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
         <div style={{ textAlign: "center" }}>
-          <div style={{ fontSize: 24, fontWeight: 700, color: T.amber, marginBottom: 8 }}>ALPHAFORGE</div>
+          <div style={{ fontSize: 24, fontWeight: 700, color: T.amber, marginBottom: 8 }}>AYUSH PANDA</div>
           <div style={{ color: T.dim, fontSize: 12 }}>Loading dashboard...</div>
         </div>
       </div>
@@ -136,7 +136,7 @@ export default function App() {
     return (
       <div style={{ background: T.bg, color: T.text, minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
         <div style={{ textAlign: "center" }}>
-          <div style={{ fontSize: 24, fontWeight: 700, color: T.amber, marginBottom: 8 }}>ALPHAFORGE</div>
+          <div style={{ fontSize: 24, fontWeight: 700, color: T.amber, marginBottom: 8 }}>AYUSH PANDA</div>
           <div style={{ color: T.dim, fontSize: 12, marginBottom: 16 }}>No portfolio data. Run the engine to generate.</div>
           <button
             onClick={() => runEngine(false)}
@@ -174,6 +174,7 @@ export default function App() {
       }}>
         <div style={{ display: "flex", gap: "2rem", alignItems: "center" }}>
           <span style={{ color: T.amber, fontWeight: 700, letterSpacing: "0.1em" }}>ASTRAIOS</span>
+          <span style={{ color: T.border, margin: "0 4px" }}>|</span>
           <span style={{ color: T.amber }}>ALPHAFORGE</span>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
@@ -211,7 +212,7 @@ export default function App() {
         padding: "24px 24px 16px",
       }}>
         <div>
-          <h1 style={{ fontSize: 24, fontWeight: 700, color: T.amber, margin: 0 }}>ALPHAFORGE</h1>
+          <h1 style={{ fontSize: 24, fontWeight: 700, color: T.amber, margin: 0 }}>AYUSH PANDA</h1>
           <div style={{ color: T.dim, fontSize: 12, marginTop: 4 }}>
             Astraios · VLM v8.2 · 7-Factor Portfolio Construction
           </div>
