@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T19:39:48.877708",
+  "generated_at": "2026-03-19T20:27:53.844637",
   "engine_version": "2.0",
   "model": "7-Factor",
   "vlm_basis": "v8.2",
@@ -34,8 +34,8 @@
       "Semiconductors": 1.75
     }
   },
-  "universe_size": 43,
-  "candidates_scored": 43,
+  "universe_size": 44,
+  "candidates_scored": 44,
   "total_holdings": 14,
   "equity_holdings": 13,
   "defensive_anchors": 1,
@@ -52,23 +52,25 @@
     {
       "rank": 1,
       "ticker": "MU",
-      "quality_score": 63.5,
+      "quality_score": 68.8,
       "weight_pct": 10,
       "weight": 0.1,
       "type": "equity",
       "technical_score": 13.3,
-      "flow_score": 10.0,
+      "flow_score": 15.3,
       "volume_score": 10.5,
       "news_score": 5.3,
       "adx_score": 5.3,
       "regime_score": 10.0,
       "momentum_score": 9.0,
-      "rationale": "Uptrend (ADX 22); obv_confirms_bullish; Volume 2.0x avg; Sector momentum leader",
+      "rationale": "Uptrend (ADX 22); very_bullish_pc_0.29, mixed_flow_4_contracts; obv_confirms_bullish; Volume 2.0x avg; Sector momentum leader",
       "signals": [
         "uptrend",
         "volume_anomaly_2.0x",
         "positive_delta",
-        "placeholder_flow",
+        "very_bullish_pc_0.29",
+        "mixed_flow_4_contracts",
+        "extreme_vol_oi_999.0x",
         "obv_confirms_bullish",
         "strong_accumulation",
         "volume_elevated_1.4x",
@@ -82,22 +84,24 @@
     {
       "rank": 2,
       "ticker": "PLTR",
-      "quality_score": 57.7,
+      "quality_score": 67.7,
       "weight_pct": 9,
       "weight": 0.09,
       "type": "equity",
       "technical_score": 5.3,
-      "flow_score": 10.0,
+      "flow_score": 20.0,
       "volume_score": 10.5,
       "news_score": 7.4,
       "adx_score": 10.0,
       "regime_score": 10.0,
       "momentum_score": 4.5,
-      "rationale": "obv_confirms_bullish; Positive news (10 headlines); Sector momentum leader",
+      "rationale": "very_bullish_pc_0.30, unusual_call_flow_3_contracts; obv_confirms_bullish; Positive news (10 headlines); Sector momentum leader",
       "signals": [
         "high_adx_31",
         "positive_delta",
-        "placeholder_flow",
+        "very_bullish_pc_0.30",
+        "unusual_call_flow_3_contracts",
+        "extreme_vol_oi_999.0x",
         "obv_confirms_bullish",
         "mfi_strong_buying_70",
         "strong_accumulation",
@@ -111,25 +115,27 @@
     {
       "rank": 3,
       "ticker": "CVX",
-      "quality_score": 69.9,
+      "quality_score": 77.2,
       "weight_pct": 8,
       "weight": 0.08,
       "type": "equity",
       "technical_score": 12.7,
-      "flow_score": 10.0,
+      "flow_score": 17.3,
       "volume_score": 12.0,
       "news_score": 6.7,
       "adx_score": 10.0,
       "regime_score": 9.5,
       "momentum_score": 9.0,
-      "rationale": "Uptrend (ADX 48); obv_confirms_bullish; Sector momentum leader",
+      "rationale": "Uptrend (ADX 48); very_bullish_pc_0.20, call_accumulation_2_contracts; obv_confirms_bullish; Sector momentum leader",
       "signals": [
         "uptrend",
         "volume_anomaly_1.2x",
         "high_adx_48",
         "positive_delta",
         "near_20d_high",
-        "placeholder_flow",
+        "very_bullish_pc_0.20",
+        "call_accumulation_2_contracts",
+        "extreme_vol_oi_999.0x",
         "obv_confirms_bullish",
         "mfi_strong_buying_74",
         "strong_accumulation",
@@ -142,24 +148,24 @@
     {
       "rank": 4,
       "ticker": "COP",
-      "quality_score": 66.0,
+      "quality_score": 62.6,
       "weight_pct": 8,
       "weight": 0.08,
       "type": "equity",
       "technical_score": 10.7,
-      "flow_score": 10.0,
+      "flow_score": 6.7,
       "volume_score": 11.5,
       "news_score": 5.3,
       "adx_score": 10.0,
       "regime_score": 9.5,
       "momentum_score": 9.0,
-      "rationale": "Uptrend (ADX 41); obv_confirms_bullish; Sector momentum leader",
+      "rationale": "Uptrend (ADX 41); very_bullish_pc_0.20; obv_confirms_bullish; Sector momentum leader",
       "signals": [
         "uptrend",
         "high_adx_41",
         "positive_delta",
         "near_20d_high",
-        "placeholder_flow",
+        "very_bullish_pc_0.20",
         "obv_confirms_bullish",
         "mfi_strong_buying_78",
         "strong_accumulation",
@@ -170,25 +176,23 @@
       "sector": "Energy"
     },
     {
-      "rank": 5,
       "ticker": "GE",
-      "quality_score": 48.5,
-      "weight_pct": 8,
-      "weight": 0.08,
-      "type": "equity",
+      "quality_score": 38.5,
+      "sector": "Industrials",
+      "is_dangerous": false,
       "technical_score": 6.7,
-      "flow_score": 10.0,
+      "flow_score": 0.0,
       "volume_score": 5.5,
       "news_score": 8.3,
-      "adx_score": 10.0,
       "regime_score": 8.0,
+      "adx_score": 10.0,
       "momentum_score": 0.0,
-      "rationale": "Positive news (10 headlines); Bullish divergence on delta",
+      "rationale": "slightly_bearish_pc_1.24; Positive news (10 headlines); Bullish divergence on delta",
       "signals": [
         "volume_anomaly_1.2x",
         "high_adx_46",
         "bullish_divergence",
-        "placeholder_flow",
+        "slightly_bearish_pc_1.24",
         "mfi_oversold_26",
         "ad_accumulation",
         "strong_positive_news_0.33",
@@ -198,46 +202,61 @@
         "bearish_trend"
       ],
       "close": 291.6099853515625,
-      "sector": "Industrials"
-    },
-    {
-      "ticker": "GOOGL",
-      "quality_score": 42.2,
-      "sector": "Technology",
       "weight_pct": 8,
       "weight": 0.08,
+      "rank": 5,
+      "type": "equity"
+    },
+    {
       "rank": 6,
+      "ticker": "GOOGL",
+      "quality_score": 47.6,
+      "weight_pct": 8,
+      "weight": 0.08,
       "type": "equity",
       "technical_score": 0.0,
-      "flow_score": 10.0,
+      "flow_score": 15.3,
       "volume_score": 5.5,
       "news_score": 7.9,
-      "regime_score": 10.0,
       "adx_score": 5.3,
+      "regime_score": 10.0,
       "momentum_score": 3.5,
-      "rationale": "Quality growth, cheapest Mag7 on earnings, AI catalyst",
-      "signals": [],
-      "warnings": [],
-      "close": 167.04
+      "rationale": "bullish_pc_0.67, call_accumulation_2_contracts; Positive news (10 headlines); Sector momentum leader",
+      "signals": [
+        "positive_delta",
+        "bullish_pc_0.67",
+        "call_accumulation_2_contracts",
+        "extreme_vol_oi_999.0x",
+        "ad_accumulation",
+        "volume_declining_0.8x",
+        "strong_positive_news_0.29"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 307.1300048828125,
+      "sector": "Technology"
     },
     {
       "rank": 7,
       "ticker": "NFLX",
-      "quality_score": 44.7,
+      "quality_score": 52.0,
       "weight_pct": 7,
       "weight": 0.07,
       "type": "equity",
       "technical_score": 0.0,
-      "flow_score": 10.0,
+      "flow_score": 17.3,
       "volume_score": 9.0,
       "news_score": 3.7,
       "adx_score": 10.0,
       "regime_score": 7.0,
       "momentum_score": 5.0,
-      "rationale": "Standard screening",
+      "rationale": "very_bullish_pc_0.07, call_accumulation_2_contracts",
       "signals": [
         "high_adx_34",
-        "placeholder_flow",
+        "very_bullish_pc_0.07",
+        "call_accumulation_2_contracts",
+        "extreme_vol_oi_999.0x",
         "obv_confirms_bullish",
         "strong_accumulation",
         "volume_declining_0.6x",
@@ -248,68 +267,80 @@
       "sector": "Communication"
     },
     {
-      "rank": 8,
       "ticker": "UBER",
-      "quality_score": 44.3,
-      "weight_pct": 7,
-      "weight": 0.07,
-      "type": "equity",
+      "quality_score": 41.0,
+      "sector": "Technology",
+      "is_dangerous": false,
       "technical_score": 2.7,
-      "flow_score": 10.0,
+      "flow_score": 6.7,
       "volume_score": 7.0,
       "news_score": 5.3,
-      "adx_score": 5.3,
       "regime_score": 10.0,
+      "adx_score": 5.3,
       "momentum_score": 4.0,
-      "rationale": "Sector momentum leader",
+      "rationale": "low_options_volume; Sector momentum leader",
       "signals": [
-        "placeholder_flow",
+        "low_options_volume",
         "obv_accumulation",
         "neutral_news_0.03"
       ],
       "warnings": [],
       "close": 75.33999633789062,
-      "sector": "Technology"
+      "weight_pct": 7,
+      "weight": 0.07,
+      "rank": 8,
+      "type": "equity"
     },
     {
       "ticker": "META",
-      "quality_score": 38.4,
+      "quality_score": 41.6,
       "sector": "Technology",
-      "weight_pct": 7,
-      "weight": 0.07,
-      "rank": 9,
-      "type": "equity",
+      "is_dangerous": false,
       "technical_score": 2.0,
-      "flow_score": 10.0,
+      "flow_score": 13.3,
       "volume_score": 3.0,
       "news_score": 5.3,
       "regime_score": 10.0,
       "adx_score": 8.0,
       "momentum_score": 0.0,
-      "rationale": "Cash machine, 20%+ revenue growth, strong AI monetization",
-      "signals": [],
-      "warnings": [],
-      "close": 597.19
+      "rationale": "bullish_pc_0.60, mixed_flow_2_contracts; Sector momentum leader",
+      "signals": [
+        "high_adx_26",
+        "bullish_pc_0.60",
+        "mixed_flow_2_contracts",
+        "extreme_vol_oi_999.0x",
+        "mfi_selling_34",
+        "distribution",
+        "neutral_news_0.03"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 606.7000122070312,
+      "weight_pct": 7,
+      "weight": 0.07,
+      "rank": 9,
+      "type": "equity"
     },
     {
       "rank": 10,
       "ticker": "COIN",
-      "quality_score": 56.6,
+      "quality_score": 53.3,
       "weight_pct": 6,
       "weight": 0.06,
       "type": "equity",
       "technical_score": 5.3,
-      "flow_score": 10.0,
+      "flow_score": 6.7,
       "volume_score": 9.5,
       "news_score": 5.3,
       "adx_score": 10.0,
       "regime_score": 10.5,
       "momentum_score": 6.0,
-      "rationale": "Standard screening",
+      "rationale": "very_bullish_pc_0.43",
       "signals": [
         "high_adx_35",
         "positive_delta",
-        "placeholder_flow",
+        "very_bullish_pc_0.43",
         "obv_accumulation",
         "mfi_buying_65",
         "strong_accumulation",
@@ -321,43 +352,62 @@
     },
     {
       "ticker": "MA",
-      "quality_score": 45.4,
+      "quality_score": 42.1,
       "sector": "Financials",
-      "weight_pct": 6,
-      "weight": 0.06,
-      "rank": 11,
-      "type": "equity",
+      "is_dangerous": false,
       "technical_score": 3.3,
-      "flow_score": 10.0,
+      "flow_score": 6.7,
       "volume_score": 5.5,
       "news_score": 8.1,
       "regime_score": 10.5,
       "adx_score": 8.0,
       "momentum_score": 0.0,
-      "rationale": "Payments leader, steady compounder, strong news sentiment",
-      "signals": [],
-      "warnings": [],
-      "close": 558.0
-    },
-    {
-      "rank": 12,
-      "ticker": "HOOD",
-      "quality_score": 0,
+      "rationale": "very_bullish_pc_0.41; Positive news (10 headlines); Bullish divergence on delta",
+      "signals": [
+        "high_adx_29",
+        "bullish_divergence",
+        "very_bullish_pc_0.41",
+        "mfi_selling_39",
+        "ad_accumulation",
+        "strong_positive_news_0.31"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 491.1400146484375,
       "weight_pct": 6,
       "weight": 0.06,
-      "type": "equity",
-      "technical_score": 0,
-      "flow_score": 0,
-      "volume_score": 0,
-      "news_score": 0,
-      "adx_score": 0,
-      "regime_score": 0,
-      "momentum_score": 0,
-      "rationale": "Manual override \u2014 PM conviction pick",
-      "signals": [],
-      "warnings": [],
-      "close": 0,
-      "sector": "Financials"
+      "rank": 11,
+      "type": "equity"
+    },
+    {
+      "ticker": "HOOD",
+      "quality_score": 33.7,
+      "sector": "Financials",
+      "is_dangerous": false,
+      "technical_score": 0.0,
+      "flow_score": 6.7,
+      "volume_score": 4.0,
+      "news_score": 6.2,
+      "regime_score": 10.5,
+      "adx_score": 5.3,
+      "momentum_score": 1.0,
+      "rationale": "low_options_volume; Bullish divergence on delta",
+      "signals": [
+        "positive_delta",
+        "bullish_divergence",
+        "low_options_volume",
+        "distribution",
+        "positive_news_0.12"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 74.16000366210938,
+      "weight_pct": 6,
+      "weight": 0.06,
+      "rank": 12,
+      "type": "equity"
     },
     {
       "rank": 13,
@@ -382,24 +432,22 @@
       "sector": "Commodities"
     },
     {
-      "rank": 14,
       "ticker": "MS",
-      "quality_score": 50.1,
-      "weight_pct": 5,
-      "weight": 0.05,
-      "type": "equity",
+      "quality_score": 44.7,
+      "sector": "Financials",
+      "is_dangerous": false,
       "technical_score": 0.7,
-      "flow_score": 10.0,
+      "flow_score": 4.7,
       "volume_score": 8.0,
       "news_score": 6.9,
-      "adx_score": 10.0,
       "regime_score": 10.5,
+      "adx_score": 10.0,
       "momentum_score": 4.0,
-      "rationale": "Standard screening",
+      "rationale": "bullish_pc_0.53",
       "signals": [
         "high_adx_37",
         "positive_delta",
-        "placeholder_flow",
+        "bullish_pc_0.53",
         "obv_accumulation",
         "strong_accumulation",
         "down_volume_dominates",
@@ -409,13 +457,16 @@
         "bearish_trend"
       ],
       "close": 158.5500030517578,
-      "sector": "Financials"
+      "weight_pct": 5,
+      "weight": 0.05,
+      "rank": 14,
+      "type": "equity"
     }
   ],
   "excluded": [
     {
       "ticker": "INTC",
-      "quality_score": 45.1,
+      "quality_score": 45.5,
       "reason": "Chop detected (2 flags, ADX 11)"
     },
     {
@@ -425,7 +476,7 @@
     },
     {
       "ticker": "MSFT",
-      "quality_score": 35.1,
+      "quality_score": 35.0,
       "reason": "Below minimum quality threshold (42)"
     },
     {
@@ -440,7 +491,7 @@
     },
     {
       "ticker": "META",
-      "quality_score": 38.4,
+      "quality_score": 41.6,
       "reason": "Below minimum quality threshold (42)"
     },
     {
@@ -492,261 +543,1121 @@
   "all_scores": [
     {
       "ticker": "CVX",
-      "quality_score": 69.9,
+      "quality_score": 77.2,
       "sector": "Energy",
-      "is_dangerous": false
-    },
-    {
-      "ticker": "COP",
-      "quality_score": 66.0,
-      "sector": "Energy",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 12.7,
+      "flow_score": 17.3,
+      "volume_score": 12.0,
+      "news_score": 6.7,
+      "regime_score": 9.5,
+      "adx_score": 10.0,
+      "momentum_score": 9.0,
+      "rationale": "Uptrend (ADX 48); very_bullish_pc_0.20, call_accumulation_2_contracts; obv_confirms_bullish; Sector momentum leader",
+      "signals": [
+        "uptrend",
+        "volume_anomaly_1.2x",
+        "high_adx_48",
+        "positive_delta",
+        "near_20d_high",
+        "very_bullish_pc_0.20",
+        "call_accumulation_2_contracts",
+        "extreme_vol_oi_999.0x",
+        "obv_confirms_bullish",
+        "mfi_strong_buying_74",
+        "strong_accumulation",
+        "positive_news_0.17"
+      ],
+      "warnings": [],
+      "close": 201.44000244140625
     },
     {
       "ticker": "MU",
-      "quality_score": 63.5,
+      "quality_score": 68.8,
       "sector": "Semiconductors",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 13.3,
+      "flow_score": 15.3,
+      "volume_score": 10.5,
+      "news_score": 5.3,
+      "regime_score": 10.0,
+      "adx_score": 5.3,
+      "momentum_score": 9.0,
+      "rationale": "Uptrend (ADX 22); very_bullish_pc_0.29, mixed_flow_4_contracts; obv_confirms_bullish; Volume 2.0x avg; Sector momentum leader",
+      "signals": [
+        "uptrend",
+        "volume_anomaly_2.0x",
+        "positive_delta",
+        "very_bullish_pc_0.29",
+        "mixed_flow_4_contracts",
+        "extreme_vol_oi_999.0x",
+        "obv_confirms_bullish",
+        "strong_accumulation",
+        "volume_elevated_1.4x",
+        "down_volume_dominates",
+        "neutral_news_0.03"
+      ],
+      "warnings": [],
+      "close": 444.2699890136719
+    },
+    {
+      "ticker": "PLTR",
+      "quality_score": 67.7,
+      "sector": "Technology",
+      "is_dangerous": false,
+      "technical_score": 5.3,
+      "flow_score": 20.0,
+      "volume_score": 10.5,
+      "news_score": 7.4,
+      "regime_score": 10.0,
+      "adx_score": 10.0,
+      "momentum_score": 4.5,
+      "rationale": "very_bullish_pc_0.30, unusual_call_flow_3_contracts; obv_confirms_bullish; Positive news (10 headlines); Sector momentum leader",
+      "signals": [
+        "high_adx_31",
+        "positive_delta",
+        "very_bullish_pc_0.30",
+        "unusual_call_flow_3_contracts",
+        "extreme_vol_oi_999.0x",
+        "obv_confirms_bullish",
+        "mfi_strong_buying_70",
+        "strong_accumulation",
+        "volume_declining_0.7x",
+        "positive_news_0.24"
+      ],
+      "warnings": [],
+      "close": 155.67999267578125
+    },
+    {
+      "ticker": "COP",
+      "quality_score": 62.6,
+      "sector": "Energy",
+      "is_dangerous": false,
+      "technical_score": 10.7,
+      "flow_score": 6.7,
+      "volume_score": 11.5,
+      "news_score": 5.3,
+      "regime_score": 9.5,
+      "adx_score": 10.0,
+      "momentum_score": 9.0,
+      "rationale": "Uptrend (ADX 41); very_bullish_pc_0.20; obv_confirms_bullish; Sector momentum leader",
+      "signals": [
+        "uptrend",
+        "high_adx_41",
+        "positive_delta",
+        "near_20d_high",
+        "very_bullish_pc_0.20",
+        "obv_confirms_bullish",
+        "mfi_strong_buying_78",
+        "strong_accumulation",
+        "neutral_news_0.03"
+      ],
+      "warnings": [],
+      "close": 126.0199966430664
     },
     {
       "ticker": "XOM",
       "quality_score": 58.1,
       "sector": "Energy",
-      "is_dangerous": false
-    },
-    {
-      "ticker": "PLTR",
-      "quality_score": 57.7,
-      "sector": "Technology",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 9.3,
+      "flow_score": 10.0,
+      "volume_score": 8.5,
+      "news_score": 2.8,
+      "regime_score": 9.5,
+      "adx_score": 10.0,
+      "momentum_score": 8.0,
+      "rationale": "Uptrend (ADX 34); Negative news sentiment; Sector momentum leader",
+      "signals": [
+        "uptrend",
+        "high_adx_34",
+        "positive_delta",
+        "placeholder_flow",
+        "obv_confirms_bullish",
+        "negative_news_-0.22"
+      ],
+      "warnings": [],
+      "close": 158.16000366210938
     },
     {
       "ticker": "COIN",
-      "quality_score": 56.6,
+      "quality_score": 53.3,
       "sector": "Financials",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 5.3,
+      "flow_score": 6.7,
+      "volume_score": 9.5,
+      "news_score": 5.3,
+      "regime_score": 10.5,
+      "adx_score": 10.0,
+      "momentum_score": 6.0,
+      "rationale": "very_bullish_pc_0.43",
+      "signals": [
+        "high_adx_35",
+        "positive_delta",
+        "very_bullish_pc_0.43",
+        "obv_accumulation",
+        "mfi_buying_65",
+        "strong_accumulation",
+        "neutral_news_0.03"
+      ],
+      "warnings": [],
+      "close": 202.91000366210938
     },
     {
-      "ticker": "MS",
-      "quality_score": 50.1,
-      "sector": "Financials",
-      "is_dangerous": false
-    },
-    {
-      "ticker": "GE",
-      "quality_score": 48.5,
-      "sector": "Industrials",
-      "is_dangerous": false
+      "ticker": "NFLX",
+      "quality_score": 52.0,
+      "sector": "Communication",
+      "is_dangerous": false,
+      "technical_score": 0.0,
+      "flow_score": 17.3,
+      "volume_score": 9.0,
+      "news_score": 3.7,
+      "regime_score": 7.0,
+      "adx_score": 10.0,
+      "momentum_score": 5.0,
+      "rationale": "very_bullish_pc_0.07, call_accumulation_2_contracts",
+      "signals": [
+        "high_adx_34",
+        "very_bullish_pc_0.07",
+        "call_accumulation_2_contracts",
+        "extreme_vol_oi_999.0x",
+        "obv_confirms_bullish",
+        "strong_accumulation",
+        "volume_declining_0.6x",
+        "negative_news_-0.13"
+      ],
+      "warnings": [],
+      "close": 91.73999786376953
     },
     {
       "ticker": "QCOM",
       "quality_score": 47.8,
       "sector": "Semiconductors",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 4.7,
+      "flow_score": 10.0,
+      "volume_score": 4.0,
+      "news_score": 7.6,
+      "regime_score": 10.0,
+      "adx_score": 10.0,
+      "momentum_score": 1.5,
+      "rationale": "Positive news (10 headlines); Sector momentum leader; Bullish divergence on delta",
+      "signals": [
+        "high_adx_34",
+        "bullish_divergence",
+        "placeholder_flow",
+        "mfi_oversold_30",
+        "distribution",
+        "strong_positive_news_0.26"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 131.27999877929688
+    },
+    {
+      "ticker": "GOOGL",
+      "quality_score": 47.6,
+      "sector": "Technology",
+      "is_dangerous": false,
+      "technical_score": 0.0,
+      "flow_score": 15.3,
+      "volume_score": 5.5,
+      "news_score": 7.9,
+      "regime_score": 10.0,
+      "adx_score": 5.3,
+      "momentum_score": 3.5,
+      "rationale": "bullish_pc_0.67, call_accumulation_2_contracts; Positive news (10 headlines); Sector momentum leader",
+      "signals": [
+        "positive_delta",
+        "bullish_pc_0.67",
+        "call_accumulation_2_contracts",
+        "extreme_vol_oi_999.0x",
+        "ad_accumulation",
+        "volume_declining_0.8x",
+        "strong_positive_news_0.29"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 307.1300048828125
     },
     {
       "ticker": "JPM",
       "quality_score": 46.1,
       "sector": "Financials",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 2.0,
+      "flow_score": 10.0,
+      "volume_score": 5.0,
+      "news_score": 6.1,
+      "regime_score": 10.5,
+      "adx_score": 10.0,
+      "momentum_score": 2.5,
+      "rationale": "Standard screening",
+      "signals": [
+        "high_adx_38",
+        "positive_delta",
+        "placeholder_flow",
+        "mfi_selling_37",
+        "ad_accumulation",
+        "positive_news_0.11"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 287.9700012207031
     },
     {
       "ticker": "BAC",
       "quality_score": 46.1,
       "sector": "Financials",
-      "is_dangerous": false
-    },
-    {
-      "ticker": "MA",
-      "quality_score": 45.4,
-      "sector": "Financials",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 3.3,
+      "flow_score": 10.0,
+      "volume_score": 5.0,
+      "news_score": 7.3,
+      "regime_score": 10.5,
+      "adx_score": 10.0,
+      "momentum_score": 0.0,
+      "rationale": "Positive news (10 headlines); Bullish divergence on delta",
+      "signals": [
+        "high_adx_44",
+        "bullish_divergence",
+        "placeholder_flow",
+        "mfi_selling_34",
+        "ad_accumulation",
+        "positive_news_0.23"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 47.0099983215332
     },
     {
       "ticker": "INTC",
-      "quality_score": 45.1,
+      "quality_score": 45.5,
       "sector": "Semiconductors",
-      "is_dangerous": true
+      "is_dangerous": true,
+      "technical_score": 1.7,
+      "flow_score": 10.0,
+      "volume_score": 8.5,
+      "news_score": 7.3,
+      "regime_score": 10.0,
+      "adx_score": 0.0,
+      "momentum_score": 8.0,
+      "rationale": "Uptrend (ADX 11); Positive news (10 headlines); Sector momentum leader; CHOP WARNING (2 flags)",
+      "signals": [
+        "uptrend",
+        "positive_delta",
+        "placeholder_flow",
+        "obv_confirms_bullish",
+        "mfi_buying_60",
+        "positive_news_0.23"
+      ],
+      "warnings": [
+        "chop_detected_2_flags",
+        "very_low_adx_11"
+      ],
+      "close": 46.18000030517578
     },
     {
-      "ticker": "NFLX",
+      "ticker": "MS",
       "quality_score": 44.7,
-      "sector": "Communication",
-      "is_dangerous": false
-    },
-    {
-      "ticker": "UBER",
-      "quality_score": 44.3,
-      "sector": "Technology",
-      "is_dangerous": false
+      "sector": "Financials",
+      "is_dangerous": false,
+      "technical_score": 0.7,
+      "flow_score": 4.7,
+      "volume_score": 8.0,
+      "news_score": 6.9,
+      "regime_score": 10.5,
+      "adx_score": 10.0,
+      "momentum_score": 4.0,
+      "rationale": "bullish_pc_0.53",
+      "signals": [
+        "high_adx_37",
+        "positive_delta",
+        "bullish_pc_0.53",
+        "obv_accumulation",
+        "strong_accumulation",
+        "down_volume_dominates",
+        "positive_news_0.19"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 158.5500030517578
     },
     {
       "ticker": "GS",
       "quality_score": 44.2,
       "sector": "Financials",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 0.7,
+      "flow_score": 10.0,
+      "volume_score": 6.0,
+      "news_score": 4.0,
+      "regime_score": 10.5,
+      "adx_score": 10.0,
+      "momentum_score": 3.0,
+      "rationale": "Standard screening",
+      "signals": [
+        "high_adx_39",
+        "placeholder_flow",
+        "obv_confirms_bullish",
+        "mfi_selling_32",
+        "volume_declining_0.8x",
+        "negative_news_-0.10"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 809.5
     },
     {
       "ticker": "HON",
       "quality_score": 44.0,
       "sector": "Industrials",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 3.3,
+      "flow_score": 10.0,
+      "volume_score": 4.0,
+      "news_score": 5.7,
+      "regime_score": 8.0,
+      "adx_score": 10.0,
+      "momentum_score": 3.0,
+      "rationale": "Bullish divergence on delta",
+      "signals": [
+        "high_adx_32",
+        "bullish_divergence",
+        "placeholder_flow",
+        "mfi_oversold_22",
+        "distribution",
+        "neutral_news_0.07"
+      ],
+      "warnings": [],
+      "close": 229.02999877929688
     },
     {
       "ticker": "CRM",
-      "quality_score": 44.0,
+      "quality_score": 43.5,
       "sector": "Technology",
-      "is_dangerous": false
-    },
-    {
-      "ticker": "GOOGL",
-      "quality_score": 42.2,
-      "sector": "Technology",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 0.0,
+      "flow_score": 10.0,
+      "volume_score": 6.5,
+      "news_score": 7.0,
+      "regime_score": 10.0,
+      "adx_score": 8.0,
+      "momentum_score": 2.0,
+      "rationale": "Positive news (10 headlines); Sector momentum leader",
+      "signals": [
+        "high_adx_28",
+        "placeholder_flow",
+        "ad_accumulation",
+        "positive_news_0.20"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 194.99000549316406
     },
     {
       "ticker": "CAT",
       "quality_score": 42.2,
       "sector": "Industrials",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 0.7,
+      "flow_score": 10.0,
+      "volume_score": 5.5,
+      "news_score": 6.0,
+      "regime_score": 8.0,
+      "adx_score": 8.0,
+      "momentum_score": 4.0,
+      "rationale": "Standard screening",
+      "signals": [
+        "high_adx_27",
+        "positive_delta",
+        "placeholder_flow",
+        "ad_accumulation",
+        "volume_declining_0.7x",
+        "neutral_news_0.10"
+      ],
+      "warnings": [],
+      "close": 688.6500244140625
+    },
+    {
+      "ticker": "MA",
+      "quality_score": 42.1,
+      "sector": "Financials",
+      "is_dangerous": false,
+      "technical_score": 3.3,
+      "flow_score": 6.7,
+      "volume_score": 5.5,
+      "news_score": 8.1,
+      "regime_score": 10.5,
+      "adx_score": 8.0,
+      "momentum_score": 0.0,
+      "rationale": "very_bullish_pc_0.41; Positive news (10 headlines); Bullish divergence on delta",
+      "signals": [
+        "high_adx_29",
+        "bullish_divergence",
+        "very_bullish_pc_0.41",
+        "mfi_selling_39",
+        "ad_accumulation",
+        "strong_positive_news_0.31"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 491.1400146484375
     },
     {
       "ticker": "NOW",
       "quality_score": 42.0,
       "sector": "Technology",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 0.0,
+      "flow_score": 10.0,
+      "volume_score": 9.5,
+      "news_score": 6.3,
+      "regime_score": 10.0,
+      "adx_score": 2.7,
+      "momentum_score": 3.5,
+      "rationale": "Sector momentum leader",
+      "signals": [
+        "placeholder_flow",
+        "obv_confirms_bullish",
+        "mfi_buying_62",
+        "strong_accumulation",
+        "volume_declining_0.7x",
+        "positive_news_0.13"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 113.2699966430664
     },
     {
       "ticker": "V",
       "quality_score": 41.8,
       "sector": "Financials",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 2.0,
+      "flow_score": 10.0,
+      "volume_score": 3.0,
+      "news_score": 6.3,
+      "regime_score": 10.5,
+      "adx_score": 10.0,
+      "momentum_score": 0.0,
+      "rationale": "Standard screening",
+      "signals": [
+        "high_adx_35",
+        "placeholder_flow",
+        "mfi_selling_31",
+        "distribution",
+        "positive_news_0.13"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 299.7099914550781
+    },
+    {
+      "ticker": "META",
+      "quality_score": 41.6,
+      "sector": "Technology",
+      "is_dangerous": false,
+      "technical_score": 2.0,
+      "flow_score": 13.3,
+      "volume_score": 3.0,
+      "news_score": 5.3,
+      "regime_score": 10.0,
+      "adx_score": 8.0,
+      "momentum_score": 0.0,
+      "rationale": "bullish_pc_0.60, mixed_flow_2_contracts; Sector momentum leader",
+      "signals": [
+        "high_adx_26",
+        "bullish_pc_0.60",
+        "mixed_flow_2_contracts",
+        "extreme_vol_oi_999.0x",
+        "mfi_selling_34",
+        "distribution",
+        "neutral_news_0.03"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 606.7000122070312
     },
     {
       "ticker": "AVGO",
       "quality_score": 41.5,
       "sector": "Semiconductors",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 0.7,
+      "flow_score": 10.0,
+      "volume_score": 4.5,
+      "news_score": 8.3,
+      "regime_score": 10.0,
+      "adx_score": 8.0,
+      "momentum_score": 0.0,
+      "rationale": "Positive news (10 headlines); Sector momentum leader",
+      "signals": [
+        "high_adx_26",
+        "placeholder_flow",
+        "distribution",
+        "strong_positive_news_0.33"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 319.8399963378906
     },
     {
       "ticker": "HD",
       "quality_score": 41.2,
       "sector": "Consumer Discretionary",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 3.3,
+      "flow_score": 10.0,
+      "volume_score": 2.5,
+      "news_score": 6.9,
+      "regime_score": 8.5,
+      "adx_score": 10.0,
+      "momentum_score": 0.0,
+      "rationale": "Bullish divergence on delta",
+      "signals": [
+        "high_adx_51",
+        "bullish_divergence",
+        "placeholder_flow",
+        "mfi_oversold_28",
+        "distribution",
+        "volume_declining_0.8x",
+        "positive_news_0.19"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 328.2099914550781
     },
     {
       "ticker": "JNJ",
       "quality_score": 41.0,
       "sector": "Healthcare",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 0.7,
+      "flow_score": 10.0,
+      "volume_score": 6.0,
+      "news_score": 7.5,
+      "regime_score": 8.5,
+      "adx_score": 5.3,
+      "momentum_score": 3.0,
+      "rationale": "Positive news (10 headlines)",
+      "signals": [
+        "placeholder_flow",
+        "ad_accumulation",
+        "positive_news_0.25"
+      ],
+      "warnings": [],
+      "close": 237.60000610351562
     },
     {
       "ticker": "WMT",
       "quality_score": 41.0,
       "sector": "Consumer Staples",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 1.7,
+      "flow_score": 10.0,
+      "volume_score": 6.0,
+      "news_score": 7.5,
+      "regime_score": 8.5,
+      "adx_score": 4.3,
+      "momentum_score": 3.0,
+      "rationale": "Positive news (10 headlines); Bullish divergence on delta",
+      "signals": [
+        "bullish_divergence",
+        "placeholder_flow",
+        "ad_accumulation",
+        "strong_positive_news_0.25"
+      ],
+      "warnings": [
+        "volume_drought"
+      ],
+      "close": 121.08999633789062
+    },
+    {
+      "ticker": "UBER",
+      "quality_score": 41.0,
+      "sector": "Technology",
+      "is_dangerous": false,
+      "technical_score": 2.7,
+      "flow_score": 6.7,
+      "volume_score": 7.0,
+      "news_score": 5.3,
+      "regime_score": 10.0,
+      "adx_score": 5.3,
+      "momentum_score": 4.0,
+      "rationale": "low_options_volume; Sector momentum leader",
+      "signals": [
+        "low_options_volume",
+        "obv_accumulation",
+        "neutral_news_0.03"
+      ],
+      "warnings": [],
+      "close": 75.33999633789062
     },
     {
       "ticker": "ADBE",
       "quality_score": 40.8,
       "sector": "Technology",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 0.7,
+      "flow_score": 10.0,
+      "volume_score": 4.5,
+      "news_score": 5.6,
+      "regime_score": 10.0,
+      "adx_score": 10.0,
+      "momentum_score": 0.0,
+      "rationale": "Sector momentum leader",
+      "signals": [
+        "high_adx_38",
+        "placeholder_flow",
+        "mfi_selling_38",
+        "distribution",
+        "volume_elevated_1.4x",
+        "neutral_news_0.06"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 245.99000549316406
     },
     {
       "ticker": "NVDA",
       "quality_score": 40.7,
       "sector": "Technology",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 0.7,
+      "flow_score": 10.0,
+      "volume_score": 8.5,
+      "news_score": 6.2,
+      "regime_score": 10.0,
+      "adx_score": 5.3,
+      "momentum_score": 0.0,
+      "rationale": "Sector momentum leader",
+      "signals": [
+        "placeholder_flow",
+        "obv_confirms_bullish",
+        "positive_news_0.12"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 178.55999755859375
     },
     {
       "ticker": "AAPL",
       "quality_score": 39.6,
       "sector": "Technology",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 3.3,
+      "flow_score": 10.0,
+      "volume_score": 3.0,
+      "news_score": 3.3,
+      "regime_score": 10.0,
+      "adx_score": 10.0,
+      "momentum_score": 0.0,
+      "rationale": "Sector momentum leader; Bullish divergence on delta",
+      "signals": [
+        "high_adx_39",
+        "bullish_divergence",
+        "placeholder_flow",
+        "mfi_selling_39",
+        "distribution",
+        "negative_news_-0.17"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 248.9600067138672
     },
     {
       "ticker": "NKE",
       "quality_score": 39.6,
       "sector": "Consumer Discretionary",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 3.3,
+      "flow_score": 10.0,
+      "volume_score": 3.0,
+      "news_score": 4.8,
+      "regime_score": 8.5,
+      "adx_score": 10.0,
+      "momentum_score": 0.0,
+      "rationale": "Bullish divergence on delta",
+      "signals": [
+        "high_adx_48",
+        "bullish_divergence",
+        "placeholder_flow",
+        "mfi_oversold_17",
+        "distribution",
+        "down_volume_dominates",
+        "neutral_news_-0.02"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 53.439998626708984
     },
     {
       "ticker": "ABBV",
       "quality_score": 39.5,
       "sector": "Healthcare",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 0.7,
+      "flow_score": 10.0,
+      "volume_score": 3.0,
+      "news_score": 7.3,
+      "regime_score": 8.5,
+      "adx_score": 10.0,
+      "momentum_score": 0.0,
+      "rationale": "Positive news (10 headlines)",
+      "signals": [
+        "high_adx_40",
+        "placeholder_flow",
+        "mfi_oversold_22",
+        "distribution",
+        "down_volume_dominates",
+        "positive_news_0.23"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 206.22999572753906
     },
     {
       "ticker": "DIS",
       "quality_score": 39.3,
       "sector": "Communication",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 4.0,
+      "flow_score": 10.0,
+      "volume_score": 4.0,
+      "news_score": 4.3,
+      "regime_score": 7.0,
+      "adx_score": 10.0,
+      "momentum_score": 0.0,
+      "rationale": "Volume 1.3x avg",
+      "signals": [
+        "volume_anomaly_1.3x",
+        "high_adx_48",
+        "placeholder_flow",
+        "mfi_oversold_12",
+        "distribution",
+        "neutral_news_-0.07"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 99.19999694824219
     },
     {
       "ticker": "LLY",
       "quality_score": 39.0,
       "sector": "Healthcare",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 0.7,
+      "flow_score": 10.0,
+      "volume_score": 3.5,
+      "news_score": 8.3,
+      "regime_score": 8.5,
+      "adx_score": 8.0,
+      "momentum_score": 0.0,
+      "rationale": "Positive news (10 headlines)",
+      "signals": [
+        "high_adx_30",
+        "placeholder_flow",
+        "mfi_oversold_29",
+        "distribution",
+        "strong_positive_news_0.33",
+        "headline_skew_bullish_70%"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 917.5
     },
     {
       "ticker": "AMZN",
       "quality_score": 38.6,
       "sector": "Consumer Discretionary",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 0.0,
+      "flow_score": 10.0,
+      "volume_score": 9.5,
+      "news_score": 5.9,
+      "regime_score": 8.5,
+      "adx_score": 2.7,
+      "momentum_score": 2.0,
+      "rationale": "Standard screening",
+      "signals": [
+        "positive_delta",
+        "placeholder_flow",
+        "obv_confirms_bullish",
+        "mfi_selling_39",
+        "strong_accumulation",
+        "neutral_news_0.09"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 208.75999450683594
     },
     {
-      "ticker": "META",
-      "quality_score": 38.4,
-      "sector": "Technology",
-      "is_dangerous": false
+      "ticker": "GE",
+      "quality_score": 38.5,
+      "sector": "Industrials",
+      "is_dangerous": false,
+      "technical_score": 6.7,
+      "flow_score": 0.0,
+      "volume_score": 5.5,
+      "news_score": 8.3,
+      "regime_score": 8.0,
+      "adx_score": 10.0,
+      "momentum_score": 0.0,
+      "rationale": "slightly_bearish_pc_1.24; Positive news (10 headlines); Bullish divergence on delta",
+      "signals": [
+        "volume_anomaly_1.2x",
+        "high_adx_46",
+        "bullish_divergence",
+        "slightly_bearish_pc_1.24",
+        "mfi_oversold_26",
+        "ad_accumulation",
+        "strong_positive_news_0.33",
+        "headline_skew_bullish_70%"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 291.6099853515625
     },
     {
       "ticker": "RTX",
       "quality_score": 38.3,
       "sector": "Industrials",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 0.0,
+      "flow_score": 10.0,
+      "volume_score": 7.5,
+      "news_score": 7.1,
+      "regime_score": 8.0,
+      "adx_score": 2.7,
+      "momentum_score": 3.0,
+      "rationale": "Positive news (10 headlines); Bullish divergence on delta",
+      "signals": [
+        "bullish_divergence",
+        "placeholder_flow",
+        "obv_accumulation",
+        "strong_accumulation",
+        "volume_declining_0.7x",
+        "positive_news_0.21"
+      ],
+      "warnings": [],
+      "close": 200.72999572753906
     },
     {
       "ticker": "MRK",
       "quality_score": 38.2,
       "sector": "Healthcare",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 0.7,
+      "flow_score": 10.0,
+      "volume_score": 4.5,
+      "news_score": 6.2,
+      "regime_score": 8.5,
+      "adx_score": 5.3,
+      "momentum_score": 3.0,
+      "rationale": "Standard screening",
+      "signals": [
+        "placeholder_flow",
+        "mfi_selling_31",
+        "ad_accumulation",
+        "volume_declining_0.8x",
+        "positive_news_0.12"
+      ],
+      "warnings": [],
+      "close": 114.19999694824219
     },
     {
       "ticker": "UNH",
       "quality_score": 38.1,
       "sector": "Healthcare",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 0.0,
+      "flow_score": 10.0,
+      "volume_score": 7.5,
+      "news_score": 7.9,
+      "regime_score": 8.5,
+      "adx_score": 2.7,
+      "momentum_score": 1.5,
+      "rationale": "Positive news (10 headlines)",
+      "signals": [
+        "placeholder_flow",
+        "obv_accumulation",
+        "strong_accumulation",
+        "volume_declining_0.7x",
+        "strong_positive_news_0.29"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 280.44000244140625
     },
     {
       "ticker": "COST",
       "quality_score": 37.9,
       "sector": "Consumer Staples",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 0.7,
+      "flow_score": 10.0,
+      "volume_score": 3.5,
+      "news_score": 6.9,
+      "regime_score": 8.5,
+      "adx_score": 5.3,
+      "momentum_score": 3.0,
+      "rationale": "Standard screening",
+      "signals": [
+        "placeholder_flow",
+        "distribution",
+        "volume_declining_0.7x",
+        "positive_news_0.19"
+      ],
+      "warnings": [],
+      "close": 974.780029296875
     },
     {
       "ticker": "AMD",
       "quality_score": 36.8,
       "sector": "Semiconductors",
-      "is_dangerous": true
+      "is_dangerous": true,
+      "technical_score": 0.0,
+      "flow_score": 10.0,
+      "volume_score": 4.5,
+      "news_score": 7.3,
+      "regime_score": 10.0,
+      "adx_score": 0.0,
+      "momentum_score": 5.0,
+      "rationale": "Positive news (10 headlines); Sector momentum leader; CHOP WARNING (2 flags)",
+      "signals": [
+        "positive_delta",
+        "placeholder_flow",
+        "distribution",
+        "positive_news_0.23"
+      ],
+      "warnings": [
+        "chop_detected_2_flags",
+        "very_low_adx_15"
+      ],
+      "close": 205.27000427246094
     },
     {
       "ticker": "ORCL",
       "quality_score": 36.4,
       "sector": "Technology",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 2.7,
+      "flow_score": 10.0,
+      "volume_score": 4.0,
+      "news_score": 6.1,
+      "regime_score": 10.0,
+      "adx_score": 2.7,
+      "momentum_score": 1.0,
+      "rationale": "Sector momentum leader",
+      "signals": [
+        "positive_delta",
+        "placeholder_flow",
+        "obv_bearish_divergence",
+        "mfi_buying_64",
+        "distribution",
+        "volume_declining_0.7x",
+        "positive_news_0.11"
+      ],
+      "warnings": [],
+      "close": 155.52000427246094
     },
     {
       "ticker": "TSLA",
       "quality_score": 36.2,
       "sector": "Consumer Discretionary",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 2.0,
+      "flow_score": 10.0,
+      "volume_score": 5.5,
+      "news_score": 4.9,
+      "regime_score": 8.5,
+      "adx_score": 5.3,
+      "momentum_score": 0.0,
+      "rationale": "Standard screening",
+      "signals": [
+        "placeholder_flow",
+        "obv_accumulation",
+        "mfi_selling_37",
+        "neutral_news_-0.01"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 380.29998779296875
     },
     {
       "ticker": "MSFT",
-      "quality_score": 35.1,
+      "quality_score": 35.0,
       "sector": "Technology",
-      "is_dangerous": false
+      "is_dangerous": false,
+      "technical_score": 0.7,
+      "flow_score": 10.0,
+      "volume_score": 3.5,
+      "news_score": 5.5,
+      "regime_score": 10.0,
+      "adx_score": 5.3,
+      "momentum_score": 0.0,
+      "rationale": "Sector momentum leader",
+      "signals": [
+        "placeholder_flow",
+        "distribution",
+        "volume_declining_0.8x",
+        "neutral_news_0.05"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 389.0199890136719
+    },
+    {
+      "ticker": "HOOD",
+      "quality_score": 33.7,
+      "sector": "Financials",
+      "is_dangerous": false,
+      "technical_score": 0.0,
+      "flow_score": 6.7,
+      "volume_score": 4.0,
+      "news_score": 6.2,
+      "regime_score": 10.5,
+      "adx_score": 5.3,
+      "momentum_score": 1.0,
+      "rationale": "low_options_volume; Bullish divergence on delta",
+      "signals": [
+        "positive_delta",
+        "bullish_divergence",
+        "low_options_volume",
+        "distribution",
+        "positive_news_0.12"
+      ],
+      "warnings": [
+        "bearish_trend"
+      ],
+      "close": 74.16000366210938
     }
   ]
 }
