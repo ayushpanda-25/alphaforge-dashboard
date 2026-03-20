@@ -64,9 +64,9 @@ const StatCard = ({ label, value, color, sub }) => (
 
 /* ── Submission order (matches competition form) ── */
 const SUBMISSION_ORDER = [
-  "CVX", "COP", "MU", "PLTR", "COIN", "GOOGL",
-  "META", "NFLX", "UBER", "GE", "MS", "MA",
-  "GLD",
+  "NFLX", "CVX", "MU", "COIN", "COP", "UBER",
+  "PLTR", "MA", "GE", "GLD", "GOOGL", "META",
+  "MS", "HOOD",
 ];
 
 /* ── Deployment mode detection ── */
@@ -275,7 +275,7 @@ export default function App() {
       <div style={{ padding: "0 24px 24px", maxWidth: 1280, margin: "0 auto" }}>
 
         {/* Summary Stats */}
-        <Panel title="PORTFOLIO SUMMARY" tag={`${portfolio.equity_holdings} EQUITIES + ${portfolio.defensive_anchors?.length || 0} ANCHORS`} style={{ marginBottom: 16 }}>
+        <Panel title="PORTFOLIO SUMMARY" tag={`${portfolio.equity_holdings} EQUITIES + ${typeof portfolio.defensive_anchors === "number" ? portfolio.defensive_anchors : portfolio.defensive_anchors?.length || 0} ANCHORS`} style={{ marginBottom: 16 }}>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 12 }}>
             <StatCard
               label="AVG QUALITY SCORE"
@@ -565,7 +565,7 @@ export default function App() {
               ["Scoring", "25% Ret · 30% Sharpe · 20% DD · 25% Alpha"],
               ["Positions", "10\u201325 stocks, integer weights, sum to 100%"],
               ["Rebalance", "Max 2/week, thesis-driven"],
-              ["Anchors", `GLD ${portfolio.defensive_anchors?.find(a => a.ticker === "GLD")?.weight_pct || 5}% + SHV ${portfolio.defensive_anchors?.find(a => a.ticker === "SHV")?.weight_pct || 5}%`],
+              ["Anchors", `GLD 5%`],
               ["Updated", new Date(portfolio.generated_at).toLocaleString()],
             ].map(([label, value]) => (
               <div key={label} style={{
