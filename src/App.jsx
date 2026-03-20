@@ -64,9 +64,9 @@ const StatCard = ({ label, value, color, sub }) => (
 
 /* ── Submission order (matches competition form) ── */
 const SUBMISSION_ORDER = [
-  "NFLX", "CVX", "XOM", "MU", "COIN", "COP",
-  "WMT", "PLTR", "JNJ", "COST", "CRM", "MA",
-  "SHV", "GLD",
+  "CVX", "COP", "MU", "PLTR", "COIN", "GOOGL",
+  "META", "NFLX", "UBER", "GE", "MS", "MA",
+  "GLD",
 ];
 
 /* ── Deployment mode detection ── */
@@ -82,21 +82,33 @@ export default function App() {
   const [expandedRow, setExpandedRow] = useState(null);
 
   const fetchData = useCallback(async () => {
+    const loadStatic = async () => {
+      const [portRes, flowRes] = await Promise.all([
+        fetch("/data/portfolio.json"), fetch("/data/flow.json"),
+      ]);
+      if (portRes.ok) setPortfolio(await portRes.json());
+      if (flowRes.ok) setFlow(await flowRes.json());
+    };
     try {
       if (IS_LOCAL) {
-        // Local dev: hit Flask API
-        const [portRes, flowRes] = await Promise.all([
-          fetch("/api/portfolio"), fetch("/api/flow"),
-        ]);
-        if (portRes.ok) setPortfolio(await portRes.json());
-        if (flowRes.ok) setFlow(await flowRes.json());
+        // Local dev: try Flask API first, fall back to static JSON
+        try {
+          const [portRes, flowRes] = await Promise.all([
+            fetch("/api/portfolio"), fetch("/api/flow"),
+          ]);
+          const portText = await portRes.text();
+          if (portText.startsWith("{")) {
+            setPortfolio(JSON.parse(portText));
+            const flowText = await flowRes.text();
+            if (flowText.startsWith("{")) setFlow(JSON.parse(flowText));
+          } else {
+            await loadStatic();
+          }
+        } catch {
+          await loadStatic();
+        }
       } else {
-        // Deployed: read static JSON from /data/
-        const [portRes, flowRes] = await Promise.all([
-          fetch("/data/portfolio.json"), fetch("/data/flow.json"),
-        ]);
-        if (portRes.ok) setPortfolio(await portRes.json());
-        if (flowRes.ok) setFlow(await flowRes.json());
+        await loadStatic();
       }
     } catch (e) {
       console.error("Fetch failed:", e);
