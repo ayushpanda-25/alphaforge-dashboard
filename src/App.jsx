@@ -65,7 +65,7 @@ const StatCard = ({ label, value, color, sub }) => (
 /* ── Submission order (matches competition form) ── */
 const SUBMISSION_ORDER = [
   "NFLX", "CVX", "MU", "COIN", "COP", "UBER",
-  "PLTR", "MA", "GE", "GLD", "GOOGL", "META",
+  "PLTR", "MA", "RTX", "GLD", "GOOGL", "META",
   "MS", "HOOD",
 ];
 
